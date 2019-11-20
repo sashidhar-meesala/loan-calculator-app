@@ -1,0 +1,78 @@
+
+body{
+    background-color:rgb(88, 74, 74);
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.main-heading{
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 2rem;
+    background-color:black;
+    padding: 1rem;
+    color:rgb(202, 77, 77);
+}
+
+.loan-form{
+    min-width: 80%;
+    border: 1px solid #cccccc;
+    border-radius: 0.2em;
+    padding: 1em;
+    max-width: 25em;
+    background-color: black;
+    margin-left: 4rem; 
+    margin-bottom: 3rem;
+
+}
+
+.form-heading{
+    color: red;
+}
+
+.loan-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.dollar-sign{
+    text-align: right;
+    padding: 0.5em;
+}
+
+.loanterm-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cal-button{
+    text-align: center;
+}
+
+.calcu-button{
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 0.9em;
+    border-radius: 0.3em;
+}
+
+.loan-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center; 
+    max-width: 50em;
+    background-color: black;
+    min-width: 80%;
+    margin-left: 4.5rem;
+    padding-bottom: 1rem;
+}

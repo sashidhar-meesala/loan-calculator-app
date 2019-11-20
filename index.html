@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan Calculator</title>
+    <meta name="description" content="simple loan calculator">
+    <meta name="author" content="sashidhar">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/index.css?v=1.1">
+</head>
+<body>
+    <header>
+        <h1 class="main-heading">Simple Loan Calculator</h1>
+        <hr>
+        <p style="text-align: center;">This Loan Calculator will determine your estimated payments for different loan amounts, interest rate and terms.</p>
+    </header>
+    <main>
+        <form class="loan-form">
+            <h2 class="form-heading"><strong>Loan Calculator</strong></h2>
+            <div class="loan-part">
+                <label>Loan Amount</label>
+                <label class="dollar-sign">$ </label>
+                <input type="number" id="loanAmount">
+            </div>
+            <hr>
+            <br>
+            <hr>
+            <div class="loanterm-part">
+                <label>Number of Years</label>
+                <input type="number" id="numOfYears">
+            </div>
+            <br>
+            <div class="cal-button">
+                <input type="button" value="Calculate" id="calculateButton" class="calcu-button">
+            </div>
+        </form>
+
+        <article>
+            <h3 style="text-align: center;"><strong>Your Monthly Payments</strong></h3>
+            <p></p>Base Calculations</p>
+            <hr>
+            <div class="loan-details">
+                <p>Loan Amount</p>
+                <p>Interest Rate</p>
+                <p>Number of Years</p>
+                <p>Monthly Payments</p>
+
+                <label id="loanAmountDetail"></label>
+                <label id="interestRateDetail"></label>
+                <label id="numberofYearsDetail"></label>
+                <label id="monthlyPaymentsDetail"></label>
+            </div>
+        </article>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+</html>
